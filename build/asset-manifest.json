@@ -1,14 +1,13 @@
 {
   "files": {
-    "main.css": "/teeShop.io/static/css/main.096cb7f7.css",
-    "main.js": "/teeShop.io/static/js/main.de5e4f56.js",
-    "static/media/PicForHeader.svg": "/teeShop.io/static/media/PicForHeader.8185bfde191bbfb5cec3402ef8d05228.svg",
+    "main.css": "/teeShop.io/static/css/main.0b82c053.css",
+    "main.js": "/teeShop.io/static/js/main.e92d8ecd.js",
     "index.html": "/teeShop.io/index.html",
-    "main.096cb7f7.css.map": "/teeShop.io/static/css/main.096cb7f7.css.map",
-    "main.de5e4f56.js.map": "/teeShop.io/static/js/main.de5e4f56.js.map"
+    "main.0b82c053.css.map": "/teeShop.io/static/css/main.0b82c053.css.map",
+    "main.e92d8ecd.js.map": "/teeShop.io/static/js/main.e92d8ecd.js.map"
   },
   "entrypoints": [
-    "static/css/main.096cb7f7.css",
-    "static/js/main.de5e4f56.js"
+    "static/css/main.0b82c053.css",
+    "static/js/main.e92d8ecd.js"
   ]
 }
