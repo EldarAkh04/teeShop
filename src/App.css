@@ -32,3 +32,24 @@ body {
     left: 10%;
 }
 
+@media screen and (max-width: 768px) {
+  .headerWrapper {
+    width: 80%;
+  }
+
+  .headerText {
+    font-size: 6vw;
+    top: 12%;
+    left: 10%;
+  }
+
+  .typingText {
+    font-size: 5vw;
+    position: relative;
+    margin-top: 2rem;
+  }
+
+  .headerImg {
+    width: 100%;
+  }
+}
