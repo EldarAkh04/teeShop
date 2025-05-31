@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/teeShop.io/static/css/main.0b82c053.css",
-    "main.js": "/teeShop.io/static/js/main.e92d8ecd.js",
-    "index.html": "/teeShop.io/index.html",
-    "main.0b82c053.css.map": "/teeShop.io/static/css/main.0b82c053.css.map",
-    "main.e92d8ecd.js.map": "/teeShop.io/static/js/main.e92d8ecd.js.map"
+    "main.css": "./static/css/main.0b82c053.css",
+    "main.js": "./static/js/main.e92d8ecd.js",
+    "index.html": "./index.html",
+    "main.0b82c053.css.map": "./static/css/main.0b82c053.css.map",
+    "main.e92d8ecd.js.map": "./static/js/main.e92d8ecd.js.map"
   },
   "entrypoints": [
     "static/css/main.0b82c053.css",
