@@ -1,4 +1,4 @@
-// src/components/typingText.jsx
+// typingText.jsx
 import React, { useEffect, useRef } from "react";
 import Typed from "typed.js";
 
@@ -7,19 +7,18 @@ function TypingText() {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["eat lookma", "drink a Çay", "have a great time"],
+      strings: ["eat Lokma", "drink a Çay", "have a great time"],
       typeSpeed: 150,
       backSpeed: 150,
-      loop: true
+      loop: true,
     });
 
-    // Clean up
     return () => {
       typed.destroy();
     };
   }, []);
 
-  return <span className="autoType" ref={el}></span>;
+  return <span ref={el} />;
 }
 
 export default TypingText;
