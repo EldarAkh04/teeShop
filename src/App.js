@@ -21,6 +21,11 @@ function App() {
         <h1 className="typingText">
             Come to <TypingText />
         </h1>
+        <div className="infoText">
+          <h2>
+            Test Test
+          </h2>
+        </div>
     </div>
   );
 }

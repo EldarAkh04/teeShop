@@ -53,3 +53,13 @@ body {
     width: 100%;
   }
 }
+.infoText {
+  position: absolute;
+  right: 5%;
+  top: 60%;
+  background-color: #594E40;
+  width: 20%;
+  height: auto;
+  padding: 1rem;
+  color: #f0e9e0;
+}
