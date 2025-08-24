@@ -64,7 +64,7 @@ body {
   position: absolute;
   background-color: #594E40;
   width: 40%;
-  top:170%;
+  top:150%;
   border-radius: 15px;
   color: #f0e9e0;
   left: 5%;
@@ -72,6 +72,7 @@ body {
 
 .CurvedDiv2 table{
   display: flex;
+  margin: 1rem;
 }
 
 @media screen and (max-width: 768px) {

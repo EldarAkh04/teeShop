@@ -1,6 +1,7 @@
 import "./App.css"
 import TypingText from "./components/typingText"; 
 import { DrawLine } from "./components/DrawingLine.tsx";
+import MapAzerbaijan from "./assets/MapAzerbaijan.png";
 
 
 
@@ -31,12 +32,15 @@ function App() {
           <table>
             <tr>
               <td>
-                Hallo1
+                Hallo1 Lores bla bla blavb bla blavb blavb bla blavb blavb bla blavb blavb bla blavbLores bla bla blavb bla blavb blavb bla blavb blavb bla blavb blavb bla blavb
               </td>
             </tr>
             <tr>
               <td>
-                <img></img>
+                <img /* src="https://github.com/EldarAkh04/teeShop/blob/SVGLine/src/assets/MapAzerbaijan.png" */
+                src={MapAzerbaijan}
+                alt="map of Azerbaijan"
+                className="AzerbaijanMap"/>
               </td>
             </tr>
           </table>
