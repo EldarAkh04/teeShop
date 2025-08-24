@@ -32,6 +32,48 @@ body {
     left: 10%;
 }
 
+.CurvedDiv1 {
+  position: absolute;
+  top: 55%;
+  width: 40%;
+  right: 0;  
+  color: #f0e9e0;
+}
+
+.CurvedDiv1 h2{
+  position: absolute;
+  left: 30%;
+  top: 28%;
+  font-size: 2vw;
+}
+
+.CurvedDiv1 p{
+  position: absolute;
+  left: 30%;
+  top: 40%;
+  font-size: 1.2vw;
+}
+
+.CurvedDiv1 svg{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.CurvedDiv2{
+  position: absolute;
+  background-color: #594E40;
+  width: 40%;
+  top:170%;
+  border-radius: 15px;
+  color: #f0e9e0;
+  left: 5%;
+}
+
+.CurvedDiv2 table{
+  display: flex;
+}
+
 @media screen and (max-width: 768px) {
   .headerWrapper {
     width: 80%;
@@ -45,21 +87,14 @@ body {
 
   .typingText {
     font-size: 5vw;
-    position: relative;
     margin-top: 2rem;
   }
 
   .headerImg {
     width: 100%;
   }
-}
-.infoText {
-  position: absolute;
-  right: 5%;
-  top: 60%;
-  background-color: #594E40;
-  width: 20%;
-  height: auto;
-  padding: 1rem;
-  color: #f0e9e0;
+
+  .CurvedDiv1{
+    top: 25%;
+  }
 }
