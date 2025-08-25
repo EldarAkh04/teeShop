@@ -2,6 +2,7 @@ import "./App.css"
 import TypingText from "./components/typingText"; 
 import { DrawLine } from "./components/DrawingLine.tsx";
 import MapAzerbaijan from "./assets/MapAzerbaijan.png";
+import ShopVid from "./assets/ShopVid.mp4"
 
 
 
@@ -44,6 +45,13 @@ function App() {
               </td>
             </tr>
           </table>
+        </div>
+        <div className="CurvedDiv3">
+          <h2>Test Test</h2>
+          <video autoPlay muted loop>
+              <source src={ShopVid} type="video/mp4"></source>
+          </video>
+          <p>You don't like tea? We also have...</p>
         </div>
     </div>
   );

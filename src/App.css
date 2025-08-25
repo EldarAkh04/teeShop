@@ -70,9 +70,38 @@ body {
   left: 5%;
 }
 
-.CurvedDiv2 table{
+.CurvedDiv2 table, .CurvedDiv3 table{
   display: flex;
   margin: 1rem;
+}
+
+.CurvedDiv2 tr{
+  width: 50%;
+}
+
+.AzerbaijanMap{
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.CurvedDiv3{
+  position: absolute;
+  background-color: #594E40;
+  width: 35%;
+  top:230%;
+  border-radius: 15px;
+  color: #f0e9e0;
+  right: 5%;
+  display: block;
+  padding: 1rem;
+  align-items: center;
+  text-align: center;
+}
+
+.CurvedDiv3 video{
+  width: 100%;
+  border-radius: 15px;
 }
 
 @media screen and (max-width: 768px) {
