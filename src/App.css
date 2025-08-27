@@ -33,10 +33,10 @@ body {
 }
 
 .CurvedDiv1 {
-  position: absolute;
-  top: 55%;
+  position: relative;
+  margin-top: 10%;
   width: 40%;
-  right: 0;  
+  left: 60%;  
   color: #f0e9e0;
 }
 
@@ -54,6 +54,14 @@ body {
   font-size: 1.2vw;
 }
 
+.CurvedDiv2 p, .CurvedDiv3 p{
+  font-size: 1.2vw;
+}
+
+.CurvedDiv3 h2{
+  font-size: 2vw;
+}
+
 .CurvedDiv1 svg{
   width: 100%;
   height: auto;
@@ -61,10 +69,10 @@ body {
 }
 
 .CurvedDiv2{
-  position: absolute;
+  position: relative;
   background-color: #594E40;
   width: 40%;
-  top:150%;
+  margin-top:10%;
   border-radius: 15px;
   color: #f0e9e0;
   left: 5%;
@@ -85,7 +93,9 @@ body {
   border-radius: 15px;
 }
 
-.CurvedDiv3{
+
+
+/* .CurvedDiv3{
   position: absolute;
   background-color: #594E40;
   width: 35%;
@@ -93,6 +103,21 @@ body {
   border-radius: 15px;
   color: #f0e9e0;
   right: 5%;
+  display: block;
+  padding: 1rem;
+  align-items: center;
+  text-align: center;
+} */
+
+.CurvedDiv3{
+  border-radius: 15px;
+  position: relative;
+  background-color: #594E40;
+  width: 35%;
+  margin-top: 10%;
+  right: 5%;
+  left: 55%;  
+  color: #f0e9e0;
   display: block;
   padding: 1rem;
   align-items: center;
@@ -122,9 +147,5 @@ body {
 
   .headerImg {
     width: 100%;
-  }
-
-  .CurvedDiv1{
-    top: 25%;
   }
 }

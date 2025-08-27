@@ -33,7 +33,7 @@ function App() {
           <table>
             <tr>
               <td>
-                Hallo1 Lores bla bla blavb bla blavb blavb bla blavb blavb bla blavb blavb bla blavbLores bla bla blavb bla blavb blavb bla blavb blavb bla blavb blavb bla blavb
+                <p>Hallo1 Lores bla bla blavb bla blavb blavb bla blavb blavb bla blavb blavb bla blavbLores bla bla blavb bla blavb blavb bla blavb blavb bla blavb blavb bla blavb</p>
               </td>
             </tr>
             <tr>
