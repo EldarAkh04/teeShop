@@ -148,4 +148,8 @@ body {
   .headerImg {
     width: 100%;
   }
+
+  .CurvedDiv1, .CurvedDiv2, .CurvedDiv3{
+    margin-top: 15%;
+  }
 }
