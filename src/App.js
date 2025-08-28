@@ -1,7 +1,7 @@
 import "./App.css"
 import TypingText from "./components/typingText"; 
 import { DrawLine } from "./components/DrawingLine.tsx";
-import MapAzerbaijan from "./assets/MapAzerbaijan.png";
+import MapAzerbaijan from "./assets/Cay.jpg";
 import ShopVid from "./assets/ShopVid.mp4"
 
 
