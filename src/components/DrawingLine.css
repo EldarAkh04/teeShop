@@ -5,8 +5,7 @@
   width: 100%;
   z-index: -1;
 }
-
-@keyframes move {
+/* @keyframes move {
   to {
     offset-distance: 100%;
   }
@@ -27,7 +26,7 @@
   to {
     stroke-dashoffset: 0;
   }
-}
+} */
 
 .template-footer {
   position: fixed;
