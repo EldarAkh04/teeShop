@@ -1,5 +1,5 @@
 import "./DrawingLine.css"
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 
 export const DrawLine = () => {
     useEffect(() => {
@@ -10,7 +10,7 @@ export const DrawLine = () => {
             return;
         } 
         const pathLength = path.getTotalLength();
-        path.style.strokeDasharray = String(pathLength);
+        path.style.strokeDasharray = String(pathLength); 
         path.style.strokeDashoffset = String(pathLength);
 
         
