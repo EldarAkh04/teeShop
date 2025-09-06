@@ -8,17 +8,21 @@ body {
 .headerWrapper {
     width: 60%;
     position: relative;
+    top: 0%;
+    left: -3%;
 }
 
 .headerImg {
      width: 100%;
+     display: block;
+     height: auto;
 }
 
 .headerText{ 
     position: absolute;
-    top: 10%;
+    top: 0%;
     left: 10%;
-    transform: translate(-10%, -10%);
+    transform: translate(-5%, -10%);
     color: #f0e9e0;
     font-family: "DM Serif Text";
     font-size: 4vw;
@@ -54,13 +58,6 @@ body {
   font-size: 1.2vw;
 }
 
-.CurvedDiv2 p, .CurvedDiv3 p{
-  font-size: 1.2vw;
-}
-
-.CurvedDiv3 h2{
-  font-size: 2vw;
-}
 
 .CurvedDiv1 svg{
   width: 100%;
@@ -70,17 +67,23 @@ body {
 
 .CurvedDiv2{
   position: relative;
-  background-color: #594E40;
-  width: 40%;
-  margin-top:10%;
+  width: 50%;
   border-radius: 15px;
   color: #f0e9e0;
-  left: 5%;
+
 }
 
-.CurvedDiv2 table, .CurvedDiv3 table{
-  display: flex;
-  margin: 1rem;
+.CurvedDiv2 svg{
+  width: 100%;
+  height: auto;
+}
+
+.CurvedDiv2 table{
+  position: absolute;
+  margin-top: 25%;
+  font-size: 1.2vw;
+  margin-left: 10%;
+  margin-right: 15%;
 }
 
 .CurvedDiv2 tr{
@@ -88,45 +91,46 @@ body {
 }
 
 .AzerbaijanMap{
-  width: 100%;
+  width: 80% !important;
   height: auto;
   border-radius: 15px;
 }
 
-
-
-/* .CurvedDiv3{
-  position: absolute;
-  background-color: #594E40;
-  width: 35%;
-  top:230%;
-  border-radius: 15px;
-  color: #f0e9e0;
-  right: 5%;
-  display: block;
-  padding: 1rem;
-  align-items: center;
-  text-align: center;
-} */
-
 .CurvedDiv3{
-  border-radius: 15px;
   position: relative;
-  background-color: #594E40;
-  width: 35%;
-  margin-top: 10%;
-  right: 5%;
-  left: 55%;  
+  width: 60%;
+  float: right;
   color: #f0e9e0;
   display: block;
-  padding: 1rem;
   align-items: center;
   text-align: center;
 }
 
-.CurvedDiv3 video{
+.CurvedDiv3 svg{
   width: 100%;
+  height: auto;
+}
+
+.CurvedDiv3 video{
   border-radius: 15px;
+  position: absolute;
+  width: 50%;
+  top: 40%;
+  left: 25%;
+}
+
+.CurvedDiv3 h2{
+  left: 25%;
+  top: 30%;
+  font-size: 2vw;
+  position: absolute;
+}
+
+.CurvedDiv3 p{
+  left: 25%;
+  top: 65%;
+  position: absolute;
+  font-size: 1.2vw;
 }
 
 @media screen and (max-width: 768px) {
