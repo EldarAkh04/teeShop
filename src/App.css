@@ -38,22 +38,22 @@ body {
 
 .CurvedDiv1 {
   position: relative;
-  margin-top: 10%;
-  width: max(250px, 50%);
+  margin-top: 5%;
+  width: 50%;
   float: right; 
   color: #f0e9e0;
 }
 
 .CurvedDiv1 h2{
   position: absolute;
-  left: 30%;
+  left: 20%;
   top: 28%;
   font-size: max(2vw, 18px);
 }
 
 .CurvedDiv1 p{
   position: absolute;
-  left: 30%;
+  left: 20%;
   top: 40%;
   font-size: max(1.2vw, 15px);
 }
@@ -68,7 +68,7 @@ body {
 .CurvedDiv2{
   margin-top: 50%;
   position: relative;
-  width: max(300px, 50%);
+  width: 50%;
   border-radius: 15px;
   color: #f0e9e0;
 
@@ -81,10 +81,10 @@ body {
 
 .CurvedDiv2 table{
   position: absolute;
-  margin-top: 25%;
+  margin-top: 20%;
   font-size: 1.2vw;
   margin-left: 10%;
-  margin-right: 15%;
+  margin-right: 10%;
 }
 
 .CurvedDiv2 tr{
@@ -107,7 +107,7 @@ body {
 
 .CurvedDiv3{
   position: relative;
-  width: max(350px,60%);
+  width: 60%;
   float: right;
   color: #f0e9e0;
   display: block;
@@ -120,27 +120,38 @@ body {
   height: auto;
 }
 
-.CurvedDiv3 video{
+.PicOfTee{
   border-radius: 15px;
-  position: absolute;
-  width: 50%;
-  top: 40%;
-  left: 25%;
+  width: 100%;
 }
 
 .CurvedDiv3 h2{
-  left: 25%;
-  top: 30%;
   font-size: max(2vw, 18px);
-  position: absolute;
 }
 
 .CurvedDiv3 p{
-  left: 25%;
-  top: 65%;
-  position: absolute;
   font-size: max(1.2vw, 15px);
 }
+
+.CurvedDiv3 table{
+  top: 25%;
+  position: absolute;
+  display: flex;
+  margin: 10%;
+}
+
+.CurvedDiv3 tr{
+  width: 50%;
+}
+
+/* .differntCays{
+  top: 90%;
+  background-color: #594E40;
+  width: 80%;
+  max-height: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+} */
 
 @media screen and (max-width: 768px) {
   .headerWrapper {
@@ -148,18 +159,70 @@ body {
   }
 
   .headerText {
-    /* font-size: 7vw; */
-    top: 7%;
+    top: 5%;
     left: 10%;
   }
 
   .typingText {
-    /* font-size: 6vw; */
     margin-top: 2rem;
     left: 5%;
   }
 
   .headerImg {
     width: 100%;
+  }
+
+  .CurvedDiv1{
+    margin-top: 40%;
+    width: max(380px,70%);
+  }
+
+  .CurvedDiv1 p{
+    margin-top: 0%;
+  }
+
+  .CurvedDiv2{
+    margin-top: 170%;
+    width: max(380px,70%);
+  }
+
+  .CurvedDiv2 table{
+    margin-left: 3%;
+    margin-top: 15%;
+  }
+  
+  .AzerbaijanMap{
+    width: 60% !important;
+    /* float: right; */
+  }
+
+  .CurvedDiv3{
+    margin-top: 40%;
+    width: max(380px,70%);
+  }
+  .CurvedDiv3 table{
+    top: 20%;
+    margin: 3%;
+  }
+
+  .PicOfTee{
+    margin-top: 20% !important;
+  }
+
+}
+
+
+
+
+  @media screen and (max-width: 500px) {
+    .CurvedDiv2 table{
+    margin-left: 3%;
+    margin-top: 20%;
+  }
+
+  .AzerbaijanMap{
+    width: 60% !important;
+    float: right;
+    margin-top: -8%;
   }
 }
