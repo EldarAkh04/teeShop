@@ -1,0 +1,24 @@
+.listItems{
+    padding: 2rem;
+    font-size: max(1.2vw, 15px);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.listItems.active{
+    background-color: #BA8B6D;
+    border-radius: 15px;
+}
+
+.GroupList{
+  width: 50%;
+  background-color: #C7A387;
+  color: #f0e9e0;
+  border-radius: 15px;
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 2rem;
+}

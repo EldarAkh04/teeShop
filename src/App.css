@@ -176,10 +176,21 @@ body {
 
 .TeaButtons{
   width: 90%;
-  height: 100px;
+  height: auto;
+  padding-bottom: 2%;
   border-radius: 15px;
-  background-color: #9B8571;
-  margin: 5rem;
+  background-color: #D4BAA3;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.offerForCustomer{
+  padding-top: 2%;
+  color: #f0e9e0;
+  font-family: "DM Serif Text";
+  font-size: max(3vw, 20px);
 }
 
 @media screen and (max-width: 768px) {
