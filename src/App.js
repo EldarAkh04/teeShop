@@ -4,7 +4,6 @@ import { DrawLine } from "./components/DrawingLine.tsx";
 import ShopVid from "./assets/CayModel.png"
 import AnimationTea from './components/WomanDrinkingTeaAnimation.tsx';
 import ListGroup from './components/ListGroup.tsx'
-import Buttons from "./components/Buttons.tsx";
 
 
 
@@ -156,7 +155,6 @@ function App() {
         <div className="TeaButtons">
           <h1 className="offerForCustomer">Our offers</h1>      
           <ListGroup />
-          <Buttons />
         </div>
     </div>
   );

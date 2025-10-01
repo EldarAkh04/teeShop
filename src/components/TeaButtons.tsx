@@ -1,4 +1,4 @@
-import "./Buttons.css"
+import "./TeaButtons.css"
 
 export default function buttons(){
     const teaName = ['Earl Greay', 'Mango & Black', 'Thyme & Black', 'Peach & Black Tea'];
@@ -10,7 +10,7 @@ export default function buttons(){
             {teaName.map((name, index) => (
                 <button className="teaButtons">
                     <h2>{name}</h2>
-                    <img src={teaPicture[index]} />
+                    <img className="buttonImg" src={teaPicture[index]} />
                     <h3>{teaPrice[index]}</h3>
                 </button>
             ))}
