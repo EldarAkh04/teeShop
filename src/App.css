@@ -145,9 +145,7 @@ body {
 }
 
 .BoxForTeavariation{
-  margin-top: 60%;
   width: 100%;
-  justify-content: center;
   align-items: center;
 }
 
@@ -190,7 +188,7 @@ body {
   padding-top: 2%;
   color: #f0e9e0;
   font-family: "DM Serif Text";
-  font-size: max(3vw, 20px);
+  font-size: max(4vw, 30px);
 }
 
 @media screen and (max-width: 768px) {
@@ -247,6 +245,14 @@ body {
 
   .PicOfTee{
     margin-top: 20% !important;
+  }
+
+  .BoxForTeavariation{
+    transform: translate(0%, 50%);
+  }
+
+  .TeaButtons{
+    margin-top: 100%;
   }
 
 }

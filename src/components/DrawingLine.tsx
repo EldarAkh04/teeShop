@@ -10,38 +10,42 @@ export const DrawLine = () => {
         if (!path ) {
             console.log("Pfad nicht gefunden!");
             return;
-        } 
+        }
+        
+        if(path){
         const pathLength = path.getTotalLength();
         path.style.strokeDasharray = String(pathLength); 
         path.style.strokeDashoffset = String(pathLength);
 
         
         window.addEventListener('scroll', () =>{
-            var scrollPrecentage = (document.documentElement.scrollTop + document.body.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight) * 4.8 ;
-           /*  console.log("Prozent pro scroll" + scrollPrecentage) */
-            var drawLength = pathLength * scrollPrecentage;
+            let scrollPercentage = (document.documentElement.scrollTop + document.body.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight) * 4.8 ;
+            scrollPercentage = Math.min(Math.max(scrollPercentage, 0), 1);
+            
+            const drawLength = pathLength * scrollPercentage;
             path.style.strokeDashoffset = String(pathLength - drawLength);
         })
-
+        }
         const pathPhone = document.querySelector(".line-running-phone") as SVGPathElement | null;
         if(!pathPhone){
             console.log("Pfad nicht gefunden");
             return;
         }
 
+
+        if (pathPhone) {
         const pathLengthPhone = pathPhone.getTotalLength();
-        pathPhone.style.strokeDasharray = String(pathLengthPhone); 
+        pathPhone.style.strokeDasharray = String(pathLengthPhone);
         pathPhone.style.strokeDashoffset = String(pathLengthPhone);
 
-        window.addEventListener('scroll', () =>{
-            var scrollPrecentage = (document.documentElement.scrollTop + document.body.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight) * 1.2 ;
-            /* console.log("Prozent pro scroll" + scrollPrecentage) */
-            var drawLength = pathLengthPhone * scrollPrecentage;
+        window.addEventListener("scroll", () => {
+            let scrollPercentage = (document.documentElement.scrollTop + document.body.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight) * 1.7;
+            scrollPercentage = Math.min(Math.max(scrollPercentage, 0), 1);
+
+            const drawLength = pathLengthPhone * scrollPercentage;
             pathPhone.style.strokeDashoffset = String(pathLengthPhone - drawLength);
-
-        })
-
-
+        });
+        }
     }, []);
 
 
