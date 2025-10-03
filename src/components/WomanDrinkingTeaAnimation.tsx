@@ -5,7 +5,7 @@ import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 const WomanDrinkingTeaAnimation: React.FC = () => {
   return (
     <DotLottieReact
-      src="https://lottie.host/4459d9c8-f076-41e7-a09b-6576e20f43f4/HyTfpbVMiO.lottie"
+      src="https://lottie.host/5ebc2394-d4ed-4c95-9ae7-e6541713a039/q4yM0X0sCA.lottie"
       loop
       autoplay
       style={{ 

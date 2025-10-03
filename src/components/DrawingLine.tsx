@@ -39,7 +39,7 @@ export const DrawLine = () => {
         pathPhone.style.strokeDashoffset = String(pathLengthPhone);
 
         window.addEventListener("scroll", () => {
-            let scrollPercentage = (document.documentElement.scrollTop + document.body.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight) * 1.7;
+            let scrollPercentage = (document.documentElement.scrollTop + document.body.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight) * 2;
             scrollPercentage = Math.min(Math.max(scrollPercentage, 0), 1);
 
             const drawLength = pathLengthPhone * scrollPercentage;
