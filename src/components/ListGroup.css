@@ -1,8 +1,8 @@
 .listItems{
     padding: 2rem;
     font-size: max(1.2vw, 15px);
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .listItems.active{
