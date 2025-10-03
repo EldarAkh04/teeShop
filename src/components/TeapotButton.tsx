@@ -1,4 +1,4 @@
-import "./TeapotButton.css"
+import "./Buttons.css"
 
 export default function buttons(){
     const teapotName = ['Japanese Bird','Butterfly','Koi-fish', 'Red Flower'];
@@ -8,7 +8,7 @@ export default function buttons(){
     return(
         <div className="divForTea">
             {teapotName.map((name, index) => (
-                <button className="teapotButtons">
+                <button className="Buttons">
                     <h2>{name}</h2>
                     <img className="buttonImg" src={teapotPicture[index]} />
                     <h3>{teapotPrice[index]}</h3>

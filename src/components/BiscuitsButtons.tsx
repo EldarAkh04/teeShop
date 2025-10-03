@@ -1,4 +1,4 @@
-import "./BiscuitButtons.css"
+import "./Buttons.css"
 
 export default function buttons(){
     const BiscuitName = ['Rose', 'Caramel & Salt'];
@@ -8,7 +8,7 @@ export default function buttons(){
     return(
         <div className="divForTea">
             {BiscuitName.map((name, index) => (
-                <button className="BiscuitButtons">
+                <button className="Buttons">
                     <h2>{name}</h2>
                     <img className="buttonImg" src={BiscuitPicture[index]} />
                     <h3>{BiscuitPrice[index]}</h3>

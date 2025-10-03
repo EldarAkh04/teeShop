@@ -1,4 +1,4 @@
-import "./GiftButtons.css"
+import "./Buttons.css"
 
 export default function buttons(){
     const giftName = ['Teapot with Mango & Black', 'Teapot with Thyme & Black', 'Teapot with Oolong tea'];
@@ -8,7 +8,7 @@ export default function buttons(){
     return(
         <div className="divForTea">
             {giftName.map((name, index) => (
-                <button className="GiftButtons">
+                <button className="Buttons">
                     <h2>{name}</h2>
                     <img className="buttonImg" src={giftPicture[index]} />
                     <h3>{giftPrice[index]}</h3>
